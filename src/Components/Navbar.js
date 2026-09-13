@@ -11,9 +11,6 @@ function Navbar() {
                 <div className="flex items-center gap-8">
                     <Link to="/" className="font-semibold hover:text-indigo-200 transition"> Students </Link>
                     <Link to="/favourites" className="font-semibold hover:text-indigo-200 transition flex items-center gap-2">Favourites
-                        <span className="bg-white text-indigo-600 text-sm font-bold px-2 py-1 rounded-full">
-                            {favourites.length}
-                        </span>
                     </Link>
                 </div>
             </div>
